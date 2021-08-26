@@ -93,7 +93,7 @@ namespace CMApp.Business.Services
                 Address2 = customer.Address2,
                 Suburb = customer.Suburb,
                 Postcode = customer.Postcode,
-                State = customer.State,
+                State = string.Empty,
                 Ctype = customer.Ctype,
                 CardNo = customer.CardNo,
                 ExpDate = customer.ExpDate

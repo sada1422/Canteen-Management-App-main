@@ -164,7 +164,7 @@ namespace CMApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
-            const string roleAdmin = "Admin";
+            const string roleAdmin = "User";
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
